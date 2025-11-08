@@ -140,7 +140,7 @@ def initialize_retriever():
         search_type="mmr",
         search_kwargs={
             "k": ct.TOP_K_RESULTS,
-            "lambda_mult": 0.3  # 多様性を重視
+            "lambda_mult": ct.LAMBDA_MULT_Lv  # 多様性を重視
         }
     )
 
