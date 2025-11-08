@@ -12,7 +12,7 @@ from langchain_community.document_loaders.csv_loader import CSVLoader
 ############################################################
 # 共通変数の定義
 ############################################################
-TOP_K_RESULTS = 20
+TOP_K_RESULTS = 5
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
 
